@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caminho Acessível</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="accessibility-controls">
+      <button id="contrasteBtn">Ativar Contraste Alto</button>
+      <button id="caixaAltaBtn">Ativar Caixa Alta</button>
+      <button id="leituraBtn">Ativar Leitura de Texto</button>
+    </div>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+    <nav>
+      <a href="index.html" class="leitura-texto">HOME</a>
+      <a href="sobre.html" class="leitura-texto">SOBRE</a>
+      <a href="solucoes.html" class="leitura-texto">SOLUÇÕES</a>
+      <a href="legislacao.html" class="leitura-texto">DIREITOS</a>
+      <a href="historias.html" class="leitura-texto">HISTÓRIAS</a>
+    </nav>
+    <main>
+      <section id="resources">
+        <h1 class="leitura-texto">GUIA DE ACESSIBILIDADE NO DIA A DIA</h1>
+        <p class="leitura-texto">
+          Este guia reúne práticas recomendadas, ferramentas e dicas para tornar diferentes contextos mais acessíveis. 
+          O objetivo é simplificar a rotina de pessoas com necessidades variadas, garantindo igualdade de acesso e oportunidades. 
+          A acessibilidade deve ser tratada como um direito essencial, integrando-se plenamente a todas as áreas da sociedade.
+        </p>
+        <h2 class="leitura-texto">Ferramentas Digitais de Acessibilidade:</h2>
+        <p class="leitura-texto">
+          As tecnologias acessíveis são recursos fundamentais para aumentar a autonomia de pessoas com deficiência na interação com o mundo digital. 
+          Aqui estão algumas soluções que podem transformar o cotidiano:
+        </p>
+        <ul>
+          <li>
+            <strong class="leitura-texto">Narradores de tela</strong>: Programas como o VoiceOver e o TalkBack convertem textos em áudio, 
+            auxiliando pessoas com deficiência visual na navegação digital. Eles também oferecem suporte para comandos por teclado, proporcionando uma experiência mais inclusiva.
+          </li>
+          <li>
+            <strong class="leitura-texto">Mouse Adaptado</strong>:
+            Equipamentos como o Mouse HeadPointer ajudam indivíduos com limitações motoras, permitindo a navegação através de movimentos mínimos. 
+            Essa tecnologia possibilita a interação sem depender de dispositivos tradicionais.
+          </li>
+          <li>
+            <strong class="leitura-texto">Verificadores de Acessibilidade</strong>:
+            Ferramentas como o Axe Accessibility permitem que designers e desenvolvedores identifiquem problemas em sites e implementem soluções,
+            melhorando a experiência para todos os usuários.
+          </li>
+        </ul>
+        <h2 class="leitura-texto">Conteudos Educativos e Tutoriais:</h2>
+        <p class="leitura-texto">
+          A educação é a base para uma sociedade mais inclusiva. 
+          Confira abaixo recursos que ajudam a compreender e aplicar práticas de acessibilidade em diferentes áreas:
+        </p>
+        <ul>
+          <li>
+            <strong class="leitura-texto">Vídeos com Legendas</strong>: Materiais audiovisuais com legendas claras e sincronizadas, essenciais para pessoas com deficiência auditiva. 
+            Eles ajudam a disseminar conteúdos importantes e facilitam o acesso a informações.
+          </li>
+          <li>
+            <strong class="leitura-texto">Descrição de Imagens</strong>: Vídeos que detalham elementos visuais, como gestos e cenários, para auxiliar pessoas cegas ou com baixa visão. 
+            Esse recurso torna o conteúdo mais compreensível e inclusivo.
+          </li>
+          <li>
+            <strong class="leitura-texto">Manuais Práticos</strong>: Recursos como o Guia de Acessibilidade Digital da Microsoft oferecem instruções detalhadas para avaliar e criar ambientes acessíveis. 
+            São ferramentas úteis para profissionais de diversas áreas interessados em promover inclusão.
+          </li>
+        </ul>
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p class="leitura-texto">
+        &copy; 2024 Caminho Acessível - Todos os direitos reservados
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

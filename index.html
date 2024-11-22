@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Um site focado em acessibilidade e inclusão."/>
+    <title>Caminho Acessível</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="accessibility-controls" >
+        <button id="contrasteBtn">Ativar Contraste Alto</button>
+        <button id="caixaAltaBtn">Ativar Caixa Alta</button>
+        <button id="leituraBtn">Ativar Leitura de Texto</button>
+    </div>    
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <nav >
+          <a href="index.html"class="leitura-texto">HOME</a>
+          <a href="sobre.html"class="leitura-texto">SOBRE</a>
+          <a href="solucoes.html"class="leitura-texto">SOLUÇÕES</a>
+          <a href="legislacao.html"class="leitura-texto">DIREITOS</a>
+          <a href="historias.html"class="leitura-texto">HISTÓRIAS</a>
+    </nav>
+    <header>
+        <img src="imagens/image.png" alt="Imagem do teclado"width="100%" height="100%">
+    </header>
+    <div class="content">
+      <main id="main-content">
+          <header>
+              <h1 class="leitura-texto">Acessibilidade no Cotidiano</h1>
+              <p class="leitura-texto"> Este site aborda como a acessibilidade pode melhorar a rotina, tanto no universo digital quanto no físico. Mais do que cumprir normas, trata-se de permitir que todos participem de maneira igualitária na sociedade. Cada avanço em inclusão é um passo para um mundo mais justo.</p>
+          </header>
+          <section>
+              <h2 class="leitura-texto">Tecnologia</h2>
+              <p class="leitura-texto">A tecnologia desempenha um papel essencial na inclusão, oferecendo soluções como leitores de tela, ajuste de contraste e legendas automáticas. Aplicativos e dispositivos adaptados ajudam pessoas com deficiência a interagir melhor no mundo digital. Garantir que sites e apps sejam acessíveis é fundamental para que a informação esteja ao alcance de todos.</p>
+          </section>
+          <section>
+              <h2 class="leitura-texto">Cotidiano</h2>
+              <p class="leitura-texto">No cotidiano, pequenas mudanças podem fazer a diferença, como rampas de acesso, sinalizações em braille, e muito mais. A inclusão de elementos acessíveis em edifícios e espaços públicos é vital para criar um ambiente onde todos possam se mover livremente e participar de atividades sociais. Além disso, é importante que a comunidade se envolva na promoção de práticas inclusivas, como a sensibilização sobre a importância da acessibilidade. Cada pessoa pode fazer a diferença, seja através de pequenas ações ou grandes iniciativas.</p>
+          </section>
+          <section>
+              <h2 class="leitura-texto">Soluções</h2>
+              <p class="leitura-texto">Encontre guias, aplicativos e soluções para construir ambientes inclusivos. Desde softwares para leitura de textos até ferramentas para navegação em espaços públicos, esses recursos ajudam a remover barreiras. Aprender a utilizá-los é essencial para ampliar seus benefícios.</p>
+          </section>
+          <section>
+              <h2 class="leitura-texto">Direitos</h2>
+              <p class="leitura-texto">Entenda os direitos garantidos por leis de acessibilidade. A legislação define diretrizes para promover inclusão e assegurar que todos possam exercer seus direitos. Estar informado sobre essas normas é essencial para proteger a igualdade de oportunidades.</p>
+          </section>
+          <section>
+              <h2 class="leitura-texto">Casos de Superação</h2>
+              <p class="leitura-texto">Conheça histórias inspiradoras de pessoas que superaram desafios por meio da acessibilidade. Esses relatos mostram o impacto da inclusão e da inovação na transformação de vidas, destacando a importância de ambientes adaptados para o crescimento individual e social.</p>
+          </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+    <footer>
+      <p class="leitura-texto">&copy; 2024 Caminho Acessível</p>
+    </footer>
+  </body>
+</html>

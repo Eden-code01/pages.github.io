@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caminho Acessível</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="accessibility-controls">
+      <button id="contrasteBtn">Ativar Contraste Alto</button>
+      <button id="caixaAltaBtn">Ativar Caixa Alta</button>
+      <button id="leituraBtn">Ativar Leitura de Texto</button>
+    </div>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+
+    <nav>
+      <a href="index.html" class="leitura-texto">HOME</a>
+      <a href="sobre.html" class="leitura-texto">SOBRE</a>
+      <a href="solucoes.html" class="leitura-texto">SOLUÇÕES</a>
+      <a href="legislacao.html" class="leitura-texto">DIREITOS</a>
+      <a href="historias.html" class="leitura-texto">HISTÓRIAS</a>
+    </nav>
+    <main>
+      <section id="stories">
+        <h1 class="leitura-texto">
+          RELATOS INSPIRADORES DE INCLUSÃO
+        </h1>
+        <p class="leitura-texto">
+          Aqui apresentamos histórias de pessoas que transformaram suas vidas e a de outros por meio da acessibilidade, 
+          mostrando como pequenas ações e tecnologias podem ter um impacto significativo.
+        </p>
+
+        <h2 class="leitura-texto">Exemplos de Superação:</h2>
+        <article>
+          <h3 class="leitura-texto">
+            Clara Martins – Educação Acessível para Todos
+          </h3>
+          <p class="leitura-texto">
+            Clara é uma professora com deficiência motora que enfrentou dificuldades para lecionar devido à falta de adaptações nas salas de aula. 
+            Com a implementação de mesas ajustáveis e recursos audiovisuais, conseguiu ensinar com eficiência. 
+            "Com as ferramentas certas, podemos focar no que realmente importa: a educação", destaca Clara.
+         </p>
+        </article>
+        <article>
+          <h3 class="leitura-texto">
+            Rafael Santos – Empreendendo com Acessibilidade
+          </h3>
+          <p class="leitura-texto">
+            Rafael, um empreendedor cego, fundou uma startup que oferece consultoria para empresas tornarem seus produtos e serviços mais acessíveis. 
+            "A inclusão é um investimento que beneficia tanto as pessoas quanto os negócios", afirma.
+            Sua empresa já impactou mais de 50 organizações.
+          </p>
+        </article>
+        <article>
+          <h3 class="leitura-texto">Beatriz Oliveira – Esportes para Pessoas com Deficiência</h3>
+          <p class="leitura-texto">
+            Beatriz, uma atleta com deficiência física, criou um projeto social que adapta modalidades esportivas para pessoas com diferentes limitações.
+            Sua iniciativa já ajudou centenas a praticarem esportes. 
+            "A prática esportiva é uma ferramenta poderosa de inclusão", ressalta Beatriz.
+          </p>
+        </article>
+        <h2 class="leitura-texto">CONCLUSÃO</h2>
+        <article>
+          <p class="leitura-texto">
+            Essas histórias reforçam que a acessibilidade é um fator essencial para criar uma sociedade mais inclusiva e igualitária. Elas mostram que com adaptações simples, 
+            tecnologias inovadoras e boas práticas, é possível transformar vidas e romper barreiras, permitindo que todos contribuam e prosperem. 
+            A inclusão beneficia não apenas os indivíduos, mas toda a comunidade.
+          </p>
+        </article>
+    
+      </section>
+    </main>
+    <footer>
+      <p class="leitura-texto">
+        &copy; 2024 Caminho Acessível - Todos os direitos reservados
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caminho Acessível</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="accessibility-controls">
+      <button id="contrasteBtn">Ativar Contraste Alto</button>
+      <button id="caixaAltaBtn">Ativar Caixa Alta</button>
+      <button id="leituraBtn">Ativar Leitura de Texto</button>
+    </div>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+    <nav>
+      <a href="index.html" class="leitura-texto">HOME</a>
+      <a href="sobre.html" class="leitura-texto">SOBRE</a>
+      <a href="solucoes.html" class="leitura-texto">SOLUÇÕES</a>
+      <a href="legislacao.html" class="leitura-texto">DIREITOS</a>
+      <a href="historias.html" class="leitura-texto">HISTÓRIAS</a>
+    </nav>
+    <main>
+      <section id="about">
+        <h1 class="leitura-texto">QUEM SOMOS</h1>
+        <p class="leitura-texto">
+          A
+          <strong class="leitura-texto">Caminho Acessível</strong>
+          foi criada com o objetivo de ajudar a construir um mundo mais inclusivo,
+          onde todas as pessoas tenham acesso igualitário e suas diferenças sejam respeitadas. Nosso compromisso é com a promoção da acessibilidade como um direito fundamental, 
+          além de conscientizar sobre a importância de espaços adaptados para todos. Desde sua fundação, nossa organização trabalha para garantir que todas as vozes sejam ouvidas e valorizadas.
+        </p>
+        <p class="leitura-texto">
+          Sonhamos com um futuro onde a acessibilidade seja um aspecto
+          fundamental em todas as esferas – da educação ao trabalho, do espaço
+          físico à tecnologia digital. Acreditamos que uma sociedade acessível
+          beneficia a todos, trazendo diversidade, inovação e empatia. Nossa
+          visão é de um mundo onde cada indivíduo, independentemente de suas
+          limitações, possa contribuir e se beneficiar plenamente da sociedade.
+        </p>
+        
+        <h2 class="leitura-texto">Missão</h2>
+        <p class="leitura-texto">
+          Nossa missão é promover a inclusão em diferentes áreas da vida ao capacitar organizações e pessoas para adotarem práticas acessíveis. 
+          Queremos transformar a sociedade desenvolvendo soluções que removam barreiras e conscientizando sobre a acessibilidade. 
+          Por meio de colaborações com diversas instituições, buscamos sempre inovar e ajustar nossas ações para atender às necessidades específicas de cada público.
+        </p>
+      
+        <h2 class="leitura-texto">Nossa História</h2>
+        <p class="leitura-texto">
+          Fundada em 2024, a <strong>Caminho Acessível</strong> nasceu de um esforço conjunto 
+          para trazer a inclusão ao centro das discussões. O projeto foi idealizado por profissionais que identificaram a necessidade de mudanças em diferentes setores.
+          Nossa trajetória é marcada pelo desenvolvimento de recursos que ajudam a facilitar a vida de muitas pessoas, além de parcerias institucionais e ações educativas. 
+          Desde então, temos impactado positivamente a sociedade por meio de campanhas, workshops e eventos de conscientização.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p class="leitura-texto">
+        &copy; 2024 Caminho Acessível - Todos os direitos reservados
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
